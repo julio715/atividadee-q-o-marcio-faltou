@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <h1>Formulário de Cadastro</h1>
+        </header>
+        <main>
+            <form action="">
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <div>
+
+                        <label for="Nome">Nome Completo</label>
+                        <input type="text" placeholder="Digite seu nome" id="Nome" required minlength="2"
+                            maxlength="40">
+
+                    </div>
+
+                    <div>
+
+                        <label for="CPF">CPF</label>
+
+                        <input type="number" placeholder="Digite seu CPF" id="CPF" required>
+
+                    </div>
+
+                    <div>
+
+                        <label for="Email">E-mail</label>
+
+                        <input type="email" placeholder="Digite seu E-mail" id="Email" required>
+
+                    </div>
+
+                    <div>
+
+                        <label for="Senha">Senha</label>
+
+                        <input type="password" placeholder="Digite sua senha" id="Senha" required>
+
+                    </div>
+
+                    <div>
+
+                        <label for="Data-nascimento">Data de nascimento</label>
+
+                        <input type="date" id="Data-nascimento" max="2014-12-31" required>
+
+                    </div>
+
+                    <div>
+                        <h2>Escolha seus estilos musicais preferidos</h2>
+
+                        <div>
+                            <input type="checkbox" id="Rap">
+
+                            <label for="Rap">Rap</label>
+
+                        </div>
+
+                        <div>
+
+                            <input type="checkbox" id="Pop">
+
+                            <label for="Pop">Pop</label>
+
+                            <div>
+
+                                <input type="checkbox" id="Sertanejo">
+
+                                <label for="Sertanejo">Sertanejo</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="checkbox" id="Pagode">
+
+                                <label for="Pagode">Pagode</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="checkbox" id="Rock">
+
+                                <label for="Rock">Rock</label>
+
+                            </div>
+
+                            <div>
+
+                                <input type="checkbox" id="Outros">
+
+                                <label for="Outros">Outros</label>
+
+                            </div>
+
+                            <div>
+
+                                <label for="Cor">Cor favorita</label>
+        
+                                <input type="color" id="Cor" required>
+        
+                            </div>
+                </fieldset>
+
+
+                <button>Enviar</button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
